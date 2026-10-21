@@ -1,0 +1,315 @@
+{
+  "format": 1,
+  "title": {
+    "en": "GitHub Agent Resources",
+    "zh": "GitHub Agent 资源索引"
+  },
+  "description": {
+    "en": "A curated index of installable DSH bundles published on GitHub, pinned by commit.",
+    "zh": "精选 GitHub 上可安装的 DSH 组合包，按提交固定版本。"
+  },
+  "metadata": {
+    "categories": {
+      "agent-tool": {
+        "title": {
+          "en": "Agent Tool",
+          "zh": "智能体工具"
+        }
+      },
+      "web-ui": {
+        "title": {
+          "en": "Web UI",
+          "zh": "界面增强"
+        }
+      },
+      "search": {
+        "title": {
+          "en": "Search",
+          "zh": "检索"
+        }
+      },
+      "marketplace": {
+        "title": {
+          "en": "Marketplace",
+          "zh": "插件市场"
+        }
+      },
+      "toolkit": {
+        "title": {
+          "en": "Toolkit",
+          "zh": "工具集"
+        }
+      },
+      "skill": {
+        "title": {
+          "en": "Skills",
+          "zh": "技能包"
+        }
+      }
+    },
+    "labels": {
+      "github": {
+        "title": {
+          "en": "GitHub",
+          "zh": "GitHub"
+        }
+      },
+      "community": {
+        "title": {
+          "en": "Community",
+          "zh": "社区"
+        }
+      },
+      "commit-pinned": {
+        "title": {
+          "en": "Commit pinned",
+          "zh": "提交固定"
+        }
+      },
+      "monorepo": {
+        "title": {
+          "en": "Monorepo",
+          "zh": "单仓库多包"
+        }
+      },
+      "mit": {
+        "title": {
+          "en": "MIT",
+          "zh": "MIT"
+        }
+      },
+      "apache-2": {
+        "title": {
+          "en": "Apache-2.0",
+          "zh": "Apache-2.0"
+        }
+      }
+    },
+    "sortKeys": {
+      "stars": {
+        "title": {
+          "en": "GitHub stars",
+          "zh": "GitHub 星数"
+        },
+        "order": "desc"
+      },
+      "forks": {
+        "title": {
+          "en": "GitHub forks",
+          "zh": "GitHub 分叉"
+        },
+        "order": "desc"
+      },
+      "updated": {
+        "title": {
+          "en": "Last commit",
+          "zh": "最后提交"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-opencode-palette",
+      "title": {
+        "en": "OpenCode Palette",
+        "zh": "OpenCode 主题引擎"
+      },
+      "description": {
+        "en": "A data-driven theme engine bringing the OpenCode palette collection to the DSH Web GUI.",
+        "zh": "数据驱动的主题引擎，把 OpenCode 全套配色带到 DSH Web 界面。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iIzA4OTFiMiIvPjx0ZXh0IHg9IjMyIiB5PSIzOSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsc3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sU2Vnb2UgVUksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZmZmZmZiI+UEFMPC90ZXh0Pjwvc3ZnPg==",
+      "author": "FeatherHunter",
+      "homepage": "https://github.com/FeatherHunter/dsh-opencode-palette",
+      "repository": {
+        "url": "https://github.com/FeatherHunter/dsh-opencode-palette"
+      },
+      "metadata": {
+        "category": "web-ui",
+        "labels": [
+          "github",
+          "community",
+          "commit-pinned",
+          "mit"
+        ],
+        "keywords": [
+          "dsh",
+          "theme",
+          "opencode",
+          "web-ui",
+          "palette"
+        ],
+        "sortKeys": {
+          "stars": 70,
+          "forks": 2,
+          "updated": 1792547166
+        }
+      },
+      "versions": [
+        {
+          "version": "2.1.9",
+          "publishTimestamp": 1792547166,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/FeatherHunter/dsh-opencode-palette",
+            "commit": "710720fbf29282df1df9b5333c518494fe8b049e"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@hyzyn/dsh-plugin-kit",
+      "title": {
+        "en": "DSH Plugin Kit",
+        "zh": "DSH 插件工具集"
+      },
+      "description": {
+        "en": "A pnpm monorepo of DSH plugins: template, developer kit and a one-stop bundle.",
+        "zh": "DSH 插件 monorepo：模板插件、开发工具包与一键全家桶。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iIzI1NjNlYiIvPjx0ZXh0IHg9IjMyIiB5PSIzOSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsc3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sU2Vnb2UgVUksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZmZmZmZiI+S0lUPC90ZXh0Pjwvc3ZnPg==",
+      "author": "hyzyn",
+      "homepage": "https://github.com/hyzyn/dsh-plugin-kit#readme",
+      "repository": {
+        "url": "https://github.com/hyzyn/dsh-plugin-kit"
+      },
+      "metadata": {
+        "category": "toolkit",
+        "labels": [
+          "github",
+          "community",
+          "commit-pinned",
+          "monorepo",
+          "apache-2"
+        ],
+        "keywords": [
+          "dsh",
+          "deepseek-harness",
+          "plugin",
+          "monorepo",
+          "toolkit"
+        ],
+        "sortKeys": {
+          "stars": 54,
+          "forks": 3,
+          "updated": 1792499712
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.59",
+          "publishTimestamp": 1792499712,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/hyzyn/dsh-plugin-kit",
+            "commit": "70074a602a42b595eaca2bdc2b4c0be3f3ab6a62"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@michengai/dsh-btw",
+      "title": {
+        "en": "DSH BTW",
+        "zh": "DSH 旁问"
+      },
+      "description": {
+        "en": "A one-shot, read-only side question in an independent bubble, without executing tools.",
+        "zh": "一次性只读旁问：基于当前上下文回答，独立气泡，不执行工具。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iI2JlMTIzYyIvPjx0ZXh0IHg9IjMyIiB5PSIzOSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsc3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sU2Vnb2UgVUksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZmZmZmZiI+QlRXPC90ZXh0Pjwvc3ZnPg==",
+      "author": "MichengAI",
+      "homepage": "https://github.com/MichengAI/dsh-btw#readme",
+      "repository": {
+        "url": "https://github.com/MichengAI/dsh-btw"
+      },
+      "metadata": {
+        "category": "agent-tool",
+        "labels": [
+          "github",
+          "community",
+          "commit-pinned",
+          "apache-2"
+        ],
+        "keywords": [
+          "dsh",
+          "agent",
+          "side-ask",
+          "conversation"
+        ],
+        "sortKeys": {
+          "stars": 23,
+          "forks": 3,
+          "updated": 1792547289
+        }
+      },
+      "versions": [
+        {
+          "version": "1.0.1",
+          "publishTimestamp": 1792547289,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/MichengAI/dsh-btw",
+            "commit": "7bec940b66bf085c6d448883b6eb124d0022ceed"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@1e0zj/dsh-plugin-mall",
+      "title": {
+        "en": "DSH Plugin Mall",
+        "zh": "DSH 插件市场"
+      },
+      "description": {
+        "en": "Browse GitHub dsh-plugin repositories and install them from the DSH GUI.",
+        "zh": "在 DSH 内搜索 GitHub dsh-plugin 仓库并一键安装。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iIzdjM2FlZCIvPjx0ZXh0IHg9IjMyIiB5PSIzOSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsc3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sU2Vnb2UgVUksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZmZmZmZiI+TUFMTDwvdGV4dD48L3N2Zz4=",
+      "author": "1e0zj",
+      "homepage": "https://github.com/1e0zj/dsh-plugin-mall#readme",
+      "repository": {
+        "url": "https://github.com/1e0zj/dsh-plugin-mall"
+      },
+      "metadata": {
+        "category": "marketplace",
+        "labels": [
+          "github",
+          "community",
+          "commit-pinned",
+          "mit"
+        ],
+        "keywords": [
+          "dsh",
+          "plugin-marketplace",
+          "github",
+          "marketplace"
+        ],
+        "sortKeys": {
+          "stars": 4,
+          "forks": 1,
+          "updated": 1787845980
+        }
+      },
+      "versions": [
+        {
+          "version": "0.4.17",
+          "publishTimestamp": 1787845980,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/1e0zj/dsh-plugin-mall",
+            "commit": "d38485accdf8b29945c82311ce396ebef57058f1"
+          }
+        }
+      ]
+    }
+  ]
+}
